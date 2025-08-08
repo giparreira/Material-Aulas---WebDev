@@ -50,26 +50,26 @@ function executarSort() {
 
 function executarSlice() {
   const array = ['🍎', '🍌', '🍇', '🍓'];
-  const resultado = array;
+  const resultado = array.slice(3); //Corta uma parte da lista
   document.getElementById('resultado-slice').textContent = resultado;
 }
 
 function executarSplice() {
   const array = ['🍎', '🍌', '🍇'];
-  const resultado = array;
+  const resultado = array.splice(); //Nao sei fazer
   document.getElementById('resultado-splice').textContent = resultado;
 }
 
 
 function executarIndexOf() {
-  const array = ['🍎', '🍌', '🍇'];
-  const resultado = array;
+  const array = ['🍎', '🍌', '🍇',];
+  const resultado = array.indexOf('🍇'); //Fala onde o negocio ta na lista
   document.getElementById('resultado-indexof').textContent = resultado;
 }
 
 function executarJoin() {
   const array = ['🍎', '🍌', '🍇'];
-  const resultado = array;
+  const resultado = array.join('-'); //Adiciona no meio dos itens da lista
   document.getElementById('resultado-join').textContent = resultado;
 }
 
